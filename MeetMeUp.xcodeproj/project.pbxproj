@@ -21,6 +21,8 @@
 		3AC33441188DB05A00D00A6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC33423188DB05A00D00A6C /* UIKit.framework */; };
 		3AC33449188DB05A00D00A6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC33447188DB05A00D00A6C /* InfoPlist.strings */; };
 		3AC3344B188DB05A00D00A6C /* MeetMeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3344A188DB05A00D00A6C /* MeetMeUpTests.m */; };
+		3AC33456188DC4D600D00A6C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC33455188DC4D600D00A6C /* DetailViewController.m */; };
+		3AC33459188DC6B200D00A6C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC33458188DC6B200D00A6C /* Event.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3AC33446188DB05A00D00A6C /* MeetMeUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeetMeUpTests-Info.plist"; sourceTree = "<group>"; };
 		3AC33448188DB05A00D00A6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AC3344A188DB05A00D00A6C /* MeetMeUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUpTests.m; sourceTree = "<group>"; };
+		3AC33454188DC4D600D00A6C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3AC33455188DC4D600D00A6C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3AC33457188DC6B200D00A6C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		3AC33458188DC6B200D00A6C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				3AC3342E188DB05A00D00A6C /* AppDelegate.h */,
 				3AC3342F188DB05A00D00A6C /* AppDelegate.m */,
 				3AC33431188DB05A00D00A6C /* Main.storyboard */,
+				3AC33454188DC4D600D00A6C /* DetailViewController.h */,
+				3AC33455188DC4D600D00A6C /* DetailViewController.m */,
+				3AC33457188DC6B200D00A6C /* Event.h */,
+				3AC33458188DC6B200D00A6C /* Event.m */,
 				3AC33434188DB05A00D00A6C /* ViewController.h */,
 				3AC33435188DB05A00D00A6C /* ViewController.m */,
 				3AC33437188DB05A00D00A6C /* Images.xcassets */,
@@ -251,7 +261,9 @@
 			files = (
 				3AC33436188DB05A00D00A6C /* ViewController.m in Sources */,
 				3AC33430188DB05A00D00A6C /* AppDelegate.m in Sources */,
+				3AC33459188DC6B200D00A6C /* Event.m in Sources */,
 				3AC3342C188DB05A00D00A6C /* main.m in Sources */,
+				3AC33456188DC4D600D00A6C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
